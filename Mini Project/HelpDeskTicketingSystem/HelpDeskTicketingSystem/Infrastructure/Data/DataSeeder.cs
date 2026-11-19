@@ -155,7 +155,7 @@ namespace HelpDeskTicketingSystem.Infrastructure.Data
                 Title = "Invoice charged twice",
                 Description = "My card was charged two times for the same invoice.",
                 Status = TicketStatus.InProgress,
-                ClientId = client1.Id,
+                ClientId = client2.Id,
                 AssignedUserId = billingAgent.Id,
                 Priority = TicketPriority.High,
                 Department = Department.Billing,
